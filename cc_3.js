@@ -1,7 +1,6 @@
 // Coding Challenge 00
 
 // Step 2
-
 let customers = [
     {   name: "Bob", 
         email: "bobthebuilder@gmail.com", 
@@ -21,11 +20,10 @@ let customers = [
       //  console.log(customers); 
 
 // Step 3
-
     customers.push({
         name: "Jose", 
         email: "JoseCuervo@gmail.com",
-        purchases: ["Agave", "Glass Bottle", "Water"] 
+        purchases: ["Agave", "Glass Bottle","Water"] 
     }); 
 
     customers.shift(0); 
@@ -39,5 +37,16 @@ let customers = [
 
     customers[0].purchases.push("Tool Box"); 
    //   console.log(customers)
+
+// Step 5 
+    customers.forEach(customers => {
+        console.log(
+            `
+            Name: ${customers.name}
+            Email: ${customers.email}
+            Purchases: ${customers.purchases}
+            `
+        )
+    });
 
 // Code goes here
