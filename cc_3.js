@@ -32,4 +32,12 @@ let customers = [
 
    //   console.log(customers); 
 
+// Step 4
+    customers[0].email = "bobdotcom@gmail.com"; 
+
+    //  console.log(customers)
+
+    customers[0].purchases.push("Tool Box"); 
+   //   console.log(customers)
+
 // Code goes here
